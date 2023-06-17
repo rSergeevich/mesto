@@ -1,0 +1,10 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 17px;
+}
+ @media screen and (max-width: 320px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+ }

@@ -1,0 +1,14 @@
+.profile__subtitile {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__subtitile {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

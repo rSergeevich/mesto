@@ -1,0 +1,9 @@
+.profile__icon {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__icon {
+        margin-bottom: 0;
+    }
+}

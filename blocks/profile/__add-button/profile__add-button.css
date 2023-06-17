@@ -1,0 +1,22 @@
+.profile__add-button {
+    display: grid;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: inherit;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__add-button {
+        position: static;
+        margin: auto;
+        width: 282px;
+    }
+}
