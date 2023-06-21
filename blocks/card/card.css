@@ -1,12 +1,19 @@
 .card {
-    background-color: #fff;
-    border-radius: 10px;
-    width: 282px;
-    height: 361px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 282px;
+  height: 361px;
 }
 
-@media screen and (max-width: 320px) {
-    .card {
-        margin: auto;
-    }
+@media screen and (max-width: 610px) {
+  .card {
+    width: 382px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 282px;
+  }
 }

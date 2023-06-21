@@ -1,9 +1,15 @@
 .profile__icon {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
-    .profile__icon {
-        margin-bottom: 0;
-    }
+.profile__icon:hover {
+  opacity: 0.6;
+  transition: opacity 1s linear;
+}
+
+@media screen and (max-width: 630px) {
+  .profile__icon {
+    margin-bottom: 0;
+  }
 }

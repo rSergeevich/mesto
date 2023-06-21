@@ -1,5 +1,14 @@
 .card__like-button {
-    color: #000000;
-    align-self: center;
-    margin-right: 20px;
+  color: #000000;
+  align-self: center;
+  margin-right: 20px;
+  cursor: pointer;
+  background-image: url(../../../images-sprint4/Vector.svg);
+  width: 22px;
+  height: 19px;
+}
+
+.card__like-button:hover {
+  opacity: 0.6;
+  transition: opacity 1s linear;
 }

@@ -1,13 +1,13 @@
 .footer__content-copyright {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #545454;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #545454;
 }
 
-@media screen and (max-width: 320px) {
-    .footer__content-copyright {
-        font-size: 14px;
-        margin-left: 19px;
-    }
+@media screen and (max-width: 630px) {
+  .footer__content-copyright {
+    font-size: 14px;
+    margin-left: 19px;
+  }
 }

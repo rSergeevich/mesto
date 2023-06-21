@@ -1,14 +1,14 @@
 .profile__info {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 320px) {
-    .profile__info {   
-       display: block;
-    }
+@media screen and (max-width: 630px) {
+  .profile__info {
+    display: block;
+  }
 }

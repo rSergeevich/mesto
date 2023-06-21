@@ -1,6 +1,20 @@
 .card__image {
-    width: 282px; 
-    height: 282px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 282px;
+  height: 282px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 610px) {
+  .card__image {
+    width: 382px;
+    margin: auto;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__image {
+    width: 282px;
+  }
 }
